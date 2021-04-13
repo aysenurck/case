@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Book",
+    "description": "A book from the library",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "The unique identifier for a book",
+            "type": "integer"
+        },
+        "author": {
+            "description": "Author of the book",
+            "type": "string"
+        },
+        "title": {
+		    "description": "Title of the book",
+            "type": "string"
+
+        }
+    },
+    "required": ["id", "author", "title"]
+}
